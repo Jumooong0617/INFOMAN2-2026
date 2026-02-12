@@ -6,3 +6,4 @@ CREATE INDEX idx_date on posts (date);
 CREATE INDEX idx_posts_title ON posts(title);
 
 --SCENARIO 3
+CREATE INDEX idx_posts_date ON posts (date);
